@@ -1,0 +1,100 @@
+/* nav .bg-nav {
+    background-color: #24341750;
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    }
+    
+    
+    nav .bg-img{
+        background-image: url(https://www.nouvellecaledonie.travel/app/uploads/nouvelle-caledonie/2022/12/thumbs/C%C2%9Cur-de-Voh-%C2%A9-Ben-Thouard-The-Explorers-NCT2-2-1920x960-crop-1670813992.jpg);
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px;
+        height: 500px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .logo {
+        height: 100px;
+        float: left;
+    }
+    
+    nav .navigation{
+        position: relative;
+        float: right;
+    
+    }
+    
+    nav .navigation-items li {
+        list-style: none;
+        display: inline-block;
+        padding: 10px 9px 10px 9px;
+        margin-top: 25px;
+        margin-right: 50px;
+    
+    }
+    
+    nav .navigation-items li a{
+        color: #F8F9FA;
+        font-size: 1.5em;
+        text-decoration: none;
+        padding: 5px 0px 5px 0px;
+    }
+    
+    nav .navigation-items li a:hover{
+        text-decoration: underline;
+    }
+    
+    .title-header{
+    margin-top: 150px;
+    display: block;
+    color: #F8F9FA;
+    text-align: center;
+    }
+    
+    .title-header h1{
+        font-size: 3.5em;
+    }
+    
+    .title-header h2{
+        font-size: 2.5em;
+    } */
+    
+    .first-row-cards{
+        margin-top: 300px;
+        align-content: center;
+        display : flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    
+    .second-row-cards{
+        margin-bottom: 50px;
+        display : flex;
+        justify-content: left;
+        justify-content: center;
+    }
+    
+    .card-img-top{
+        max-height: 300px;
+        max-width: 100%;
+    }
+    
+    .menu-link {
+        text-decoration: none;
+        color : #121212;
+        font-size: 1.5em;
+        display: block;
+        text-align: center;
+    }
+    
+    .menu-link:hover {
+    text-decoration: underline;
+    color: #1d656d;
+    }

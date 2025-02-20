@@ -1,0 +1,200 @@
+/* nav .bg-nav {
+    background-color: #24341750;
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    }
+    
+    
+    nav .bg-img{
+        background-image: url(https://www.nouvellecaledonie.travel/app/uploads/nouvelle-caledonie/2022/12/thumbs/C%C2%9Cur-de-Voh-%C2%A9-Ben-Thouard-The-Explorers-NCT2-2-1920x960-crop-1670813992.jpg);
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px;
+        height: 500px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .logo {
+        height: 100px;
+        float: left;
+    }
+    
+    nav .navigation{
+        position: relative;
+        float: right;
+    
+    }
+    
+    nav .navigation-items li {
+        list-style: none;
+        display: inline-block;
+        padding: 10px 9px 10px 9px;
+        margin-top: 25px;
+        margin-right: 50px;
+    
+    }
+    
+    nav .navigation-items li a{
+        color: #F8F9FA;
+        font-size: 1.5em;
+        text-decoration: none;
+        padding: 5px 0px 5px 0px;
+    }
+    
+    nav .navigation-items li a:hover{
+        text-decoration: underline;
+    }
+    
+    .title-header{
+    margin-top: 150px;
+    display: block;
+    color: #F8F9FA;
+    text-align: center;
+    }
+    
+    .title-header h1{
+        font-size: 3.5em;
+    }
+    
+    .title-header h2{
+        font-size: 2.5em;
+    } */
+main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+body {
+  align-items: center;
+  background-color: #000;
+  display: block;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form {
+  background-color: #f8f9fa6e;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 400px;
+  padding: 20px;
+  width: 320px;
+  margin: auto;
+}
+
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.mdp-perdu {
+  display: block;
+  text-align: right;
+  color: #121212;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.mdp-perdu:hover {
+  text-decoration: underline;
+}
+
+.input {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #121212;
+  font-size: 18px;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+  height: 50px;
+  transition: 0.3s;
+}
+
+.input:focus {
+  border-color: #00a0b1;
+  box-shadow: 0 0 8px 0 #00a0b1;
+}
+
+.input_container_email {
+  margin-bottom: 10px;
+}
+
+.input_container_email i {
+  position: absolute;
+  left: 0;
+  top: 25px;
+}
+
+.input_container_mdp {
+  margin-bottom: 5px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.submit {
+  background-color: #61351d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #f8f9fa;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  text-align: center;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+}
+
+.submit:hover {
+  background-color: #f8f9fa;
+  color: #61351d;
+}
+
+.inscription {
+  color: #121212;
+  text-decoration: none;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.inscription:hover {
+  text-decoration: underline;
+}
+
+.bg-form-content {
+  background-color: #f8f9faa2;
+  background-position: center;
+  width: auto;
+  margin: auto;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.bg-form {
+  background-color: #243417;
+  background-position: center;
+  width: 45%;
+  margin: auto;
+  padding: 50px;
+  border-radius: 20px;
+}
+.bg-form h1 {
+  color: #f8f9fa;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
